@@ -56,7 +56,7 @@
     "pa11y": "./bin/pa11y.js"
   },
   "scripts": {
-    "start": "pa11y --environment && pa11y",
+    "start": "node ./bin/pa11y.js",
     "lint": "eslint .",
     "test-unit": "jest test/unit",
     "test-coverage": "jest test/unit --coverage",
