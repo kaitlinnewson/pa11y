@@ -33,7 +33,7 @@
     "npm": ">=10"
   },
   "dependencies": {
-    "axe-core": "~4.8.2",
+    "axe-core": "^4.8.2",
     "bfj": "~8.0.0",
     "commander": "~11.1.0",
     "envinfo": "~7.11.0",
