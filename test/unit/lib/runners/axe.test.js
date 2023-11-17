@@ -294,11 +294,13 @@ describe('lib/runners/axe', () => {
 							rules: {},
 							runOnly: {
 								type: 'tags',
-								values: ['wcag2a',
+								values: [
+									'wcag2a',
 									'wcag21a',
 									'wcag2aa',
 									'wcag21aa',
-									'best-practice']
+									'best-practice'
+								]
 							}
 						})
 					);
